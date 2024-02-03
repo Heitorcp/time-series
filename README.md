@@ -1,29 +1,29 @@
-# COVID-19 Dashboard 
+# COVID-19 Dashboard
 
-O projeto dashboard pode ser acessado [aqui](https://covid-ts-73wpqtbw6q-uc.a.run.app)
+The dashboard project can be accessed [here](https://covid-ts-73wpqtbw6q-uc.a.run.app)
 
-Projeto para a disciplina de Séries Temporais (SME0808). Os dados foram extraídos do COVID-19 Data Hub, que pode ser acessado [aqui](https://covid19datahub.io/).
+Project for the Time Series course (SME0808). The data was extracted from the COVID-19 Data Hub, which can be accessed [here](https://covid19datahub.io/).
 
-## Instruções para rodar o projeto
+## Instructions to run the project
 
-Siga as instruções abaixo para rodar o MVP de dashboard na sua máquina
+Follow the instructions below to run the MVP dashboard on your machine.
 
 ## Setup
 ---
 
 ### 1. **Install Python**
-  [Install](https://www.python.org/downloads/) python3
+  [Install](https://www.python.org/downloads/) Python 3
 
 ### 2. **Clone this repo with**
 `git clone https://github.com/heitortanoue/time-series`
 
-### 3. **Install poetry and setup the environment**
-  install poetry: `pip install poetry`
+### 3. **Install poetry and set up the environment**
+  Install poetry: `pip install poetry`
 
-  run `poetry install`
+  Run `poetry install`
 
 ### 4. **Start the app**
 
-  Go to the project folder `cd .\python\streamlit`
+  Navigate to the project folder `cd .\python\streamlit`
 
-  Run `streamlit run .\0_👋_Introdução.py` to run the app locally
+  Run `streamlit run .\0_👋_Introduction.py` to run the app locally
