@@ -1,14 +1,10 @@
-# time-series
+# COVID-19 Dashboard 
+
+O projeto dashboard pode ser acessado [aqui](https://covid-ts-73wpqtbw6q-uc.a.run.app)
 
 Projeto para a disciplina de Séries Temporais (SME0808). Os dados foram extraídos do COVID-19 Data Hub, que pode ser acessado [aqui](https://covid19datahub.io/).
 
-## Projeto Overleaf
-Link para o documento overleaf [aqui](https://www.overleaf.com/project/64e78ba37aa9b5fdc1d32924)
-
-### Perguntas iniciais
-Link para as perguntas que definimos [aqui](https://docs.google.com/document/d/1v93sjYmrPYgMzPrnQ7Q3mDkyt3Dhk47OS50PK2EPxwc/edit)
-
-## Instruções para rodar o MVP do projeto
+## Instruções para rodar o projeto
 
 Siga as instruções abaixo para rodar o MVP de dashboard na sua máquina
 
@@ -21,25 +17,13 @@ Siga as instruções abaixo para rodar o MVP de dashboard na sua máquina
 ### 2. **Clone this repo with**
 `git clone https://github.com/heitortanoue/time-series`
 
-### 3. **Setup a virtual environment with venv**
-   Go to the folder python: `cd .\python`
+### 3. **Install poetry and setup the environment**
+  install poetry: `pip install poetry`
 
-   Create the venv: `python -m venv env`
-
-   Go to the venv folder `cd .\env\`
-
-   Activate the environment `.\Scripts\activate`
-
-### 3. **Install requirements**
-
-Run the following command to install the project's required libraries
-
-`cd ..`
-
-`python -m pip install -r requirements.txt`
+  run `poetry install`
 
 ### 4. **Start the app**
 
-Go to the project folder `cd .\streamlit`
+  Go to the project folder `cd .\python\streamlit`
 
-Run `streamlit run .\0_👋_Introdução.py` to run the app locally
+  Run `streamlit run .\0_👋_Introdução.py` to run the app locally
