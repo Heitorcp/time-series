@@ -1,8 +1,8 @@
 # COVID-19 Dashboard
 
-The dashboard project can be accessed [here](https://covid-ts-73wpqtbw6q-uc.a.run.app)
+The dashboard project can be accessed [here](https://covid-ts-73wpqtbw6q-uc.a.run.app){:target="_blank"}.
 
-Project for the Time Series course (SME0808). The data was extracted from the COVID-19 Data Hub, which can be accessed [here](https://covid19datahub.io/).
+Project for the Time Series course (SME0808). The data was extracted from the COVID-19 Data Hub, which can be accessed [here](https://covid19datahub.io/){:target="_blank"}.
 
 ## Instructions to run the project
 
